@@ -1,0 +1,111 @@
+/* 
+======================
+CONFIGURAÇÕES BASICAS
+======================
+*/
+
+body {
+    font-family: "Fira Sans, Arial", Arial , sans-serif ;  /*Difine a fonte principal da site*/
+    margin: 0px; /* Remove qualquer margem padrão aplicada pelo navegador*/
+    color: #141414; /*define a cor dos textos para um tom escuro*/
+
+}
+
+h1,h2,h3,p{
+    margin: 0px; 
+}
+
+img {
+    max-width: 100%; /*Garante que a imagem nunca ultrapassa o container*/
+    height: auto; /*Mantém a procuração original da imagem*/
+}
+
+li {
+    list-style: none;
+}
+
+/* 
+======================
+CABEÇALHO ( HEADER )
+======================
+*/
+
+.header {
+    max-width: 1200px; /* Define a largura maxima para evitar que o conteudo fique muito largo em telas grandes */
+    padding: 40px 20px; /* Espaçamento interno para cima/baixo direita/esquerda*/
+    margin: 0 auto; /* Centraliza o cabeçalho na horizontal*/
+    display: flex; /* Organiza os elementos lado a lado*/
+    justify-content: space-between; /* Distibui */
+    align-items: center; /* Alinha verticalmente os elemntos*/
+
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os items do menu quebrem a linha */
+    gap: 10px;
+    justify-content: center; /* Garante que os itens sempre fiquem centralizados*/
+
+
+}
+
+.header-menu a {
+    text-decoration: none;
+    /* background-color: blueviolet; */
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #141414; /*define a cor dos textos para um tom escuro*/
+    display: block; /* Garante que o link ocupe toda a área do botão*/
+
+}
+
+/* 
+======================
+SEÇÃO DE INTRODUÇÃO
+======================
+*/
+
+.introducao {
+    max-width: 1200px;
+    padding: 40px 20px ;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide o espaço, 1 parte para a imagem e 2 parte para o texto*/
+    gap: 100px;
+    align-items: center;
+}
+
+.introducao h1 {
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+
+.introducao p {
+    font-size: 24px;
+    color: #525252;
+}
+
+/* 
+======================
+SEÇÃO DE EXPERIENCIA
+======================
+*/
+
+.experiencia {
+    max-width: 1200px;
+    margin: 0px;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 100px;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
